@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliegesoy.todolist.MainActivity"
+    android:orientation="vertical"
+    >
+  <include
+      android:id="@+id/toolbar"
+      layout="@layout/toolbar"></include>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        ></ListView>
+
+    <Button
+        android:id="@+id/AddNew"
+        android:background="#242424"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Add New +"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffff99"
+        android:layout_weight="3"/>
+
+
+</LinearLayout>
